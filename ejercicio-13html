@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 14</title>
+</head>
+<body>
+    <script>
+
+let mycar = {
+    marca: "Honda",
+   modelo: "Accord",
+   año: 1998
+  }
+
+         function myFunc(elobjeto)
+ {
+   elobjeto.marca= "Toyota";
+ }
+ console.log(mycar.marca);
+ myFunc(mycar);
+  
+
+    </script>
+</body>
+</html>

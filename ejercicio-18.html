@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio18</title>
+</head>
+<body>
+    <script>
+
+function esnumero(elemento){
+           return typeof elemento === 'number'
+       }
+
+       function filterList(array){
+           return array.filter(esnumero);
+       }
+       
+       console.log(filterList([1, 2, 3, 'x', 'y', 10]));
+
+    </script>
+</body>
+</html>
